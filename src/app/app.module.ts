@@ -7,12 +7,14 @@ import { UserComponent } from './user/user.component';
 import { LoginComponent } from './login/login.component';
 import { CartComponent } from './cart/cart.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     LoginComponent,
-    CartComponent
+    CartComponent,
+   
   ],
   imports: [
     BrowserModule,
